@@ -14,7 +14,7 @@ const App = (initProps) => {
   return (
     <>
       <Header />
-      <section className="lg:w-4/5 lg:m-auto p-6 lg:px-8">
+      <section className="lg:w-4/5 lg:m-auto p-6 lg:px-8 containerH">
         <Switch>
           <Route path="/" exact element={<HomePage {...props} />} />
           <Route path="/contact" exact element={<Contact {...props} />} />
